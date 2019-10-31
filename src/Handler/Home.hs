@@ -13,6 +13,8 @@ import Database.Persist.Postgresql
 getHomeR :: Handler Html
 getHomeR = do 
     defaultLayout $ do 
+    -- addScriptRemote "url" -> CHAMA JS EXTERNO
+    -- addScript (StaticR script_js) -> JS INTERNO
         addStylesheet (StaticR css_bootstrap_css)
         toWidgetHead [julius|
             function ola(){
@@ -28,7 +30,7 @@ getHomeR = do
             <h1>
                 OLA MUNDO!
                 
-            
+            <img src=@{StaticR pikachu_jpg}>
             <button class="btn btn-danger" onclick="ola()">
                 OLA
         |]
