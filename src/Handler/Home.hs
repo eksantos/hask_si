@@ -14,6 +14,17 @@ import Database.Persist.Postgresql
 getAdsR :: Handler TypedContent
 getAdsR = return $ TypedContent "text/plain"
     $ toContent $(embedFile "static/ads.txt")
+    
+getPage1R :: Handler Html
+getPage1R = do
+    defaultLayout $ do
+        addScript (StaticR ola_js):
+        [whamlet |
+            <h1>
+                PAGINA 1
+                <a href=@{Page1R}>
+                    Voltar
+        |]
 
 getHomeR :: Handler Html
 getHomeR = do 
