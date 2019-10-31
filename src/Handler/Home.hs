@@ -22,7 +22,7 @@ getPage1R = do
         [whamlet |
             <h1>
                 PAGINA 1
-                <a href=@{Page1R}>
+                <a href=@{HomeR}>
                     Voltar
         |]
 
