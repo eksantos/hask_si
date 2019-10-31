@@ -1,2 +1,6 @@
-function ola() { alert("OLA"); }
+function ola() { 
+    alert("OLA"); 
+    
+}
+
 ola();
