@@ -18,8 +18,8 @@ getAdsR = return $ TypedContent "text/plain"
 getPage1R :: Handler Html
 getPage1R = do
     defaultLayout $ do
-        addScript (StaticR ola_js):
-        [whamlet |
+        addScript (StaticR ola_js)
+        [whamlet|
             <h1>
                 PAGINA 1
                 <a href=@{HomeR}>
