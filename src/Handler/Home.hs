@@ -43,7 +43,7 @@ getHomeR = do
         addStylesheet (StaticR css_bootstrap_css)
         toWidgetHead [julius|
             function ola(){
-                alert("ola");
+                alert("PIKA !");
             }
         |]
         toWidgetHead [lucius|
@@ -65,5 +65,5 @@ getHomeR = do
                         
             <img src=@{StaticR pikachu_jpg}>
             <button class="btn btn-danger" onclick="ola()">
-                OLA
+                PIKACHU !
         |]
