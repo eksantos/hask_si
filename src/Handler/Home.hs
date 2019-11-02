@@ -50,6 +50,9 @@ getHomeR = do
             h1 {
                 color : red;
             }
+            li {
+                display: inline;
+            }
         |]
         [whamlet|
             <h1>
