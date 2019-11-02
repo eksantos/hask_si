@@ -56,7 +56,7 @@ getHomeR = do
         |]
         [whamlet|
             <h1>
-                OLA MUNDO!
+                BEM-VINDO A PAGINA DO PIKACHU !
             
             <ul>
                 <li>
