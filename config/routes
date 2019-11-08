@@ -9,3 +9,5 @@
 /p1         Page1R  GET
 /p2         Page2R  GET
 /aluno      AlunoR  GET POST
+/listar     ListAlunoR GET
+/aluno/#AlunoId/apagar ApagarAlunoR POST

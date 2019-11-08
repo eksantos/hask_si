@@ -1,0 +1,23 @@
+<table>
+    <tr>
+        <th>
+            NOME
+        <th>
+            RA
+        <th>
+            DATA NASCIMENTO
+        <th>
+
+    <tbody>
+        $forall Entity aid aluno <- alunos
+            <tr>
+                <td>
+                    #{alunoNome aluno}
+                <td>
+                    #{alunoRA aluno}
+                <td>
+                    #{alunoDtNasc aluno}
+                <td>
+                    <form method = post action=@{ApagarAlunoR aid}>
+                        <button>
+                            X
