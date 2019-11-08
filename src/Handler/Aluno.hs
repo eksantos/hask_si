@@ -26,7 +26,6 @@ getAlunoR = do
     (widget, enctype) <- generateFormPost formAluno
     msg <- getMessage
     defaultLayout $ do
-    addStylesheet (Static css_bootstrap_css)
         [whamlet|
             $maybe mensa <- msg --é um if
                 <div>
