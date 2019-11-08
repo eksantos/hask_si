@@ -1,4 +1,4 @@
-table>
+<table>
     <thead>
         <tr>
             <th>
@@ -11,7 +11,7 @@ table>
     <tbody>
         $forall Entity aid aluno <- alunos 
             <tr>
-                <td>
+                <td id=#{"nome" ++ show (fromSqlKey aid)}>
                     #{alunoNome aluno}
                 <td>
                     #{alunoRa aluno}
@@ -20,4 +20,4 @@ table>
                 <td>
                     <form method=post action=@{ApagarAlunoR aid}>
                         <button>
-                            X 
+                            X
