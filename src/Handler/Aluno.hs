@@ -27,7 +27,7 @@ getAlunoR = do
     msg <- getMessage
     defaultLayout $ do
     addStylesheet (Static css_bootstrap_css)
-        [whamlet |
+        [whamlet|
             $maybe mensa <- msg --é um if
                 <div>
                     ^{mensa}
