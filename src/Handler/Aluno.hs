@@ -30,7 +30,7 @@ getAlunoR = do
     defaultLayout $ do 
         addStylesheet (StaticR css_bootstrap_css)
         [whamlet|
-            $maybe mensa <- msg --
+            $maybe mensa <- msg
                 <div>
                     ^{mensa}
             
