@@ -53,5 +53,3 @@ postAlunoR = do
             redirect AlunoR
         _ -> redirect HomeR
         
-postApagarAlunoR :: AlunoId -> Handler Html
-postApagarAlunoR aid = do 
