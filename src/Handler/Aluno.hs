@@ -28,7 +28,7 @@ getAlunoR = do
     defaultLayout $ do
     addStylesheet (Static css_bootstrap_css)
         [whamlet|
-            $maybe mensa <- msg --é um if
+            $maybe mensa <- msg
                 <div>
                     ^{mensa}
             --$nothing é o else
