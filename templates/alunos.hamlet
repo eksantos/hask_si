@@ -1,23 +1,23 @@
-<table>
-    <tr>
-        <th>
-            NOME
-        <th>
-            RA
-        <th>
-            DATA NASCIMENTO
-        <th>
-
+table>
+    <thead>
+        <tr>
+            <th>
+                NOME
+            <th>
+                RA
+            <th>
+                DATA NASC
+            <th>
     <tbody>
-        $forall Entity aid aluno <- alunos
+        $forall Entity aid aluno <- alunos 
             <tr>
-                <td>
+                <td id=#{"nome" ++ show $ fromSqlKey aid}>
                     #{alunoNome aluno}
                 <td>
-                    #{alunoRA aluno}
+                    #{alunoRa aluno}
                 <td>
-                    #{alunoDtNasc aluno}
+                    #{show $ alunoDtNasc aluno}
                 <td>
-                    <form method = post action=@{ApagarAlunoR aid}>
+                    <form method=post action=@{ApagarAlunoR aid}>
                         <button>
-                            X
+                            X 
