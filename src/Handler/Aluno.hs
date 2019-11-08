@@ -26,9 +26,9 @@ getAlunoR = do
     (widget, enctype) <- generateFormPost formAluno
     msg <- getMessage
     defaultLayout $ do
-    addStylesheet (Static css_bootstrap_css)
+    addStylesheet (StaticR css_bootstrap_css)
         [whamlet|
-            $maybe mensa <- msg
+            $maybe mensa <- msg --é um if
                 <div>
                     ^{mensa}
             --$nothing é o else
@@ -52,3 +52,6 @@ postAlunoR = do
             |]
             redirect AlunoR
         _ -> redirect HomeR
+        
+postApagarAlunoR :: AlunoId -> Handler Html
+postApagarAlunoR aid = do 
