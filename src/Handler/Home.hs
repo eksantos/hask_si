@@ -48,17 +48,43 @@ getHomeR = do
         |]
         toWidgetHead [lucius|
         @import url('https://fonts.googleapis.com/css?family=Luckiest+Guy&display=swap');
+        @import url('https://fonts.googleapis.com/css?family=Londrina+Solid&display=swap');
              h1{
                 font-size: 3em;
                 color: black;
                 font-family: 'Luckiest Guy', cursive;
                 text-align: center;
-}
-            li {
-                display: inline;
             }
+            .divFlexs{
+                flex: 3;
+                margin: 2%;
+                height: 35rem;
+                border: 2px solid #61f2f5;
+                text-align: center;
+                
+            }
+            a.btns{
+                padding: 3% 5%;
+                background-color: #851de0;
+                display: inline-block;
+                color: white;
+                font-size: 1.5em;
+                text-decoration: none;
+                margin-top: 5%;
+                box-shadow: 0 0 1em #f1f1f1;
+                font-family: 'Londrina Solid', cursive;
+            }
+
         |]
         [whamlet|
             <h1>
                 REVIEW GAME FTNT
+            <div class="divFlexs">
+                <a href=@{HomeR} class="btns">learn more
+            
+            <div class="divFlexs">
+                <a href=@{HomeR} class="btns">learn more
+
+            <div class="divFlexs">
+                <a href=@{HomeR} class="btns">learn more
         |]
