@@ -47,7 +47,8 @@ getHomeR = do
             }
         |]
         toWidgetHead [lucius|
-            header h1{
+        @import url('https://fonts.googleapis.com/css?family=Luckiest+Guy&display=swap');
+             h1{
                 font-size: 3em;
                 color: black;
                 font-family: 'Luckiest Guy', cursive;
@@ -60,16 +61,4 @@ getHomeR = do
         [whamlet|
             <h1>
                 REVIEW GAME FTNT
-          {-*  
-            <ul>
-                <li>
-                    <a href=@{Page1R}>
-                        PAGINA 1
-                <li>
-                    <a href=@{Page2R}>
-                        PAGINA 2
-                        
-            <img src=@{StaticR pikachu_jpg}>
-            <button class="btn btn-danger" onclick="ola()">
-                PIKACHU !*-}
         |]
