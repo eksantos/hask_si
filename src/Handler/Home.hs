@@ -47,17 +47,20 @@ getHomeR = do
             }
         |]
         toWidgetHead [lucius|
-            h1 {
-                color : red;
-            }
+            header h1{
+                font-size: 3em;
+                color: black;
+                font-family: 'Luckiest Guy', cursive;
+                text-align: center;
+}
             li {
                 display: inline;
             }
         |]
         [whamlet|
             <h1>
-                BEM-VINDO A PAGINA DO PIKACHU !
-            
+                REVIEW GAME FTNT
+          {-*  
             <ul>
                 <li>
                     <a href=@{Page1R}>
@@ -68,5 +71,5 @@ getHomeR = do
                         
             <img src=@{StaticR pikachu_jpg}>
             <button class="btn btn-danger" onclick="ola()">
-                PIKACHU !
+                PIKACHU !*-}
         |]
