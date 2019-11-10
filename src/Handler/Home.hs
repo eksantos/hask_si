@@ -49,6 +49,11 @@ getHomeR = do
         toWidgetHead [lucius|
         @import url('https://fonts.googleapis.com/css?family=Luckiest+Guy&display=swap');
         @import url('https://fonts.googleapis.com/css?family=Londrina+Solid&display=swap');
+            main{
+                background-color: #fbfbfb;
+                display: flex;
+                padding: 50px;
+            }
              h1{
                 font-size: 3em;
                 color: black;
@@ -79,12 +84,14 @@ getHomeR = do
         [whamlet|
             <h1>
                 REVIEW GAME FTNT
-            <div class="divFlexs">
-                <a href=@{HomeR} class="btns">learn more
             
-            <div class="divFlexs">
-                <a href=@{HomeR} class="btns">learn more
-
-            <div class="divFlexs">
-                <a href=@{HomeR} class="btns">learn more
+            <main>
+                <div class="divFlexs">
+                    <a href=@{HomeR} class="btns">learn more
+                
+                <div class="divFlexs">
+                    <a href=@{HomeR} class="btns">learn more
+    
+                <div class="divFlexs">
+                    <a href=@{HomeR} class="btns">learn more
         |]
