@@ -37,6 +37,7 @@ getPage1R = do
 
 getHomeR :: Handler Html
 getHomeR = do 
+        sess <- lookupSession "_NOME"
     defaultLayout $ do 
     -- addScriptRemote "url" -> CHAMA JS EXTERNO
     -- addScript (StaticR script_js) -> JS INTERNO
@@ -98,4 +99,10 @@ getHomeR = do
     
                 <div class="divFlexs">
                     <a href=@{HomeR} class="btns">learn more
+            $maybe nome <- sess
+                    <li>
+                        <div>
+                            Ola #{nome}
+                        <form method=post action=@{SairR}>
+                            <input type="submit" value="Sair">
         |]
