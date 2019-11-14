@@ -38,3 +38,24 @@ getUsuarioR = do
                 ^{widget}
                 <input type="submit" value="Cadastrar">
         |]
+        
+postUsuarioR :: Handler Html
+postUsuarioR = do 
+    ((result,_),_) <- runFormPost formUsu
+    case result of 
+        FormSuccess (usuario,veri) -> do 
+            if (usuarioSenha usuario == veri) then do 
+                runDB $ insert usuario 
+                setMessage [shamlet|
+                    <div>
+                        USUARIO INCLUIDO
+                |]
+                redirect UsuarioR
+            else do 
+                setMessage [shamlet|
+                    <div>
+                        SENHA E VERIFICACAO NAO CONFEREM
+                |]
+                redirect UsuarioR
+        _ -> redirect HomeR
+
