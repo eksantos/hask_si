@@ -105,4 +105,7 @@ getHomeR = do
                             Ola #{nome}
                         <form method=post action=@{SairR}>
                             <input type="submit" value="Sair">
+            $nothing
+                    <h1>
+                        CONVIDADO
         |]
