@@ -5,7 +5,7 @@ ssh root@167.114.128.121 <<EOF
 cd hask_si &&
 git pull origin master &&
 stack build &&
-lsof -i:80 -Fp | sed 's/^p//' | head -n -1 | xargs kill -9;
+lsof -i:443 -Fp | sed 's/^p//' | head -n -1 | xargs kill -9;
 nohup stack exec aulahaskell > /dev/null
 echo "deploy finished"
 EOF
