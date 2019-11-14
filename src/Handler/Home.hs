@@ -37,7 +37,7 @@ getPage1R = do
 
 getHomeR :: Handler Html
 getHomeR = do 
-        sess <- lookupSession "_NOME"
+    sess <- lookupSession "_NOME"
     defaultLayout $ do 
     -- addScriptRemote "url" -> CHAMA JS EXTERNO
     -- addScript (StaticR script_js) -> JS INTERNO
