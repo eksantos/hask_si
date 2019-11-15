@@ -44,7 +44,7 @@ getHomeR = do
         addStylesheet (StaticR css_bootstrap_css)
         toWidgetHead [julius|
         <!-- Global site tag (gtag.js) - Google Analytics -->
-        async src="https://www.googletagmanager.com/gtag/js?id=UA-72614868-2"
+        <async src="https://www.googletagmanager.com/gtag/js?id=UA-72614868-2">
                 window.dataLayer = window.dataLayer || [];
                 function gtag(){dataLayer.push(arguments);}
                 gtag('js', new Date());
