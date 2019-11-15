@@ -44,11 +44,13 @@ getHomeR = do
         addStylesheet (StaticR css_bootstrap_css)
         toWidgetHead [julius|
         <!-- Global site tag (gtag.js) - Google Analytics -->
-        <async src="https://www.googletagmanager.com/gtag/js?id=UA-72614868-2">
-                window.dataLayer = window.dataLayer || [];
-                function gtag(){dataLayer.push(arguments);}
-                gtag('js', new Date());
-                gtag('config', 'UA-72614868-2');
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-72614868-2"></script>
+            <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+             gtag('js', new Date());
+
+            gtag('config', 'UA-72614868-2');
         |]
         toWidgetHead [lucius|
         @import url('https://fonts.googleapis.com/css?family=Luckiest+Guy&display=swap');
