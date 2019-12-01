@@ -6,7 +6,7 @@
             <th>
                 EMAIL
     {-<tbody>
-        *$forall Entity aid email <- email 
+        *$forall Entity aid email <- emails
             <tr>
                 <td id=#{"nome" ++ show (fromSqlKey aid)}>
                     #{alunoNome aluno}
