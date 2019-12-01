@@ -190,35 +190,36 @@ getHomeR = do
         }
         |]
         [whamlet|
-           <header><h1>Review Game FTNT </h1></header>
+           <header>
+                <h1>Review Game FTNT
 
         <main>
             <div class="divFlexs" id="divMap">
-                <a href="#" class="btns">find your map</a>
+                <a href=@{HomeR} class="btns">find your map
 
             <div class="divFlexs" id="divPouso">
-                <a href="#" class="btns">locations on the map</a>
+                <a href=@{HomeR} class="btns">locations on the map
                 <!--<input type="button" value="ok">-->
 
             <div class="divFlexs" id="divPontosMap">
-                <a href="#" class="btns">discover your world</a>
+                <a href=@{HomeR} class="btns">discover your world
             <div id="container">
-            <h2>about Us</h2>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-            <p id="pImg1"> oi</p>
-            <h2 class="elementRight">Lorem Ipsum</h2>
-            <p class="elementRight">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            <h2>about Us
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            <p id="pImg1"> oi
+            <h2 class="elementRight">Lorem Ipsum
+            <p class="elementRight">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
             
 
         <footer>
             <nav id="menuFooter">
                 <ul class="divFlexsFooter">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Map</a></li>
-                    <li><a href="#">Combat</a></li>
-                    <li><a href="#">Characters</a></li>
-                    <li><a href="#">Chapter 2</a></li>
-                    <li><a href="#">Buy Fortnite</a></li>
+                    <li><a href=@{HomeR}Home
+                    <li><a href=@{HomeR}Map
+                    <li><a href=@{HomeR}Combat
+                    <li><a href=@{HomeR}Characters
+                    <li><a href=@{HomeR}Chapter 2
+                    <li><a href=@{HomeR}Buy Fortnite
                 <div id="logoFooter" class="divFlexsFooter">
                         <img src="imgs/imgMapFtnt.png" alt="Logo do site" height="150px" width="150px"> 
     
