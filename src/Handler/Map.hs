@@ -38,6 +38,8 @@ getMapR = do
         [whamlet|
         <head>
             <title>Review Game FTNT
+            
+        <header><h1>Review Game FTNT </h1></header>
         
         <div id="container">
             <h2>Map
