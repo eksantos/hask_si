@@ -13,7 +13,7 @@ import Text.Lucius
 
 -- marcação de divs renderDivs
 formEmail :: Form Email
-formAluno = renderBootstrap $ Aluno 
+formEmail = renderBootstrap $ Email 
     <$> areq textField  "Nome: " Nothing
 -- areq = required / apot = opcional
 -- Tudo acompanha o models, campos e se é opcional ou não
