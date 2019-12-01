@@ -82,12 +82,18 @@ getHomeR = do
         <footer>
             <nav id="menuFooter">
                 <ul class="divFlexsFooter">
-                        <li><a href=@{HomeR}>Home
-                        <li><a href=@{HomeR}>Map
-                        <li><a href=@{HomeR}>Combat
-                        <li><a href=@{HomeR}>Characters
-                        <li><a href=@{HomeR}>Chapter 2
-                        <li><a href=@{HomeR}>Buy Fortnite
+                        <li>
+                            <a href=@{HomeR}>Home
+                        <li>
+                            <a href=@{HomeR}>Map
+                        <li>
+                            <a href=@{HomeR}>Combat
+                        <li>
+                            <a href=@{HomeR}>Characters
+                        <li>
+                            <a href=@{HomeR}>Chapter 2
+                        <li>
+                            <a href=@{HomeR}>Buy Fortnite
                 <div id="logoFooter" class="divFlexsFooter">
                     <img src=@{StaticR imgMapFtnt_png} alt="Logo do site" height="150px" width="150px">
             <p>© 2019 - Review Game FTNT
