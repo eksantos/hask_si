@@ -101,7 +101,7 @@ getHomeR = do
                     <li><a href="#">Buy Fortnite</a></li>
                 </ul>
                 <div id="logoFooter" class="divFlexsFooter">
-                        <img src="imgs/imgMapFtnt.png" alt="Logo do site" height="150px" width="150px"> 
+                        <img src={@StaticR imgMapFtnt_png} alt="Logo do site" height="150px" width="150px"> 
                 </div>
             </nav>
             <p>© 2019 - Review Game FTNT</p>

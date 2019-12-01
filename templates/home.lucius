@@ -56,17 +56,17 @@ a.btns:hover{
 }
 
 #divMap{
-    background-image: url("imgs/imgMapFtnt.png");
+    background-image: url("static/imgMapFtnt.png");
     background-position: center;
 }
 
 #divPouso{
-    background-image: url("imgs/imgpouso.jpeg");
+    background-image: url("static/imgpouso.jpeg");
     background-position: center;
 }
 
 #divPontosMap{
-    background-image: url("imgs/imgpontosdomapa.jpeg");
+    background-image: url("static/imgpontosdomapa.jpeg");
     background-position: center;
 }
 
