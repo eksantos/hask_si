@@ -9,12 +9,10 @@
 /p1         Page1R  GET
 /p2         Page2R  GET
 /aluno      AlunoR  GET POST
-/listarA     ListAlunoR GET
+/listar     ListAlunoR GET
 /aluno/#AlunoId/apagar ApagarAlunoR POST
 
 /cadastrar  UsuarioR    GET POST
 /entrar     EntrarR     GET POST
 /sair       SairR       POST
 /admin      AdminR      GET
-
-/news       EmailR      GET POST
