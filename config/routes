@@ -17,6 +17,4 @@
 /sair       SairR       POST
 /admin      AdminR      GET
 
-/news       NewsR       GET POST
-/list       ListNewsR   GET
 /map        MapR        GET
