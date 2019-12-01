@@ -131,5 +131,5 @@ nav#menuFooter ul li a:hover{
 }
 
 div#logoFooter{
-   border-left: 1px solid #17ecf0;;
+   border-left: 1px solid #17ecf0;
 }
