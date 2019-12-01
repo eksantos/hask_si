@@ -18,4 +18,3 @@
 /admin      AdminR      GET
 
 /news       EmailR      GET POST
-/listar     ListEmailR  GET
