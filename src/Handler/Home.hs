@@ -63,21 +63,18 @@ getHomeR = do
         <title>Review Game FTNT</title>
     </head>
 
-    <body>
-        <header><h1>Review Game FTNT </h1></header>
-
         <main>
             <div class="divFlexs" id="divMap">
-                <a href="#" class="btns">find your map</a>
+                <a href=@{HomeR} class="btns">find your map</a>
             </div>
 
             <div class="divFlexs" id="divPouso">
-                <a href="#" class="btns">locations on the map</a>
+                <a href=@{HomeR} class="btns">locations on the map</a>
                 <!--<input type="button" value="ok">-->
             </div>
 
             <div class="divFlexs" id="divPontosMap">
-                <a href="#" class="btns">discover your world</a>
+                <a href=@{HomeR} class="btns">discover your world</a>
             </div>
         </main>
 
@@ -93,12 +90,12 @@ getHomeR = do
         <footer>
             <nav id="menuFooter">
                 <ul class="divFlexsFooter">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Map</a></li>
-                    <li><a href="#">Combat</a></li>
-                    <li><a href="#">Characters</a></li>
-                    <li><a href="#">Chapter 2</a></li>
-                    <li><a href="#">Buy Fortnite</a></li>
+                    <li><a href=@{HomeR}>Home</a></li>
+                    <li><a href=@{HomeR}>Map</a></li>
+                    <li><a href=@{HomeR}>Combat</a></li>
+                    <li><a href=@{HomeR}>Characters</a></li>
+                    <li><a href=@{HomeR}>Chapter 2</a></li>
+                    <li><a href=@{HomeR}>Buy Fortnite</a></li>
                 </ul>
                 <div id="logoFooter" class="divFlexsFooter">
                         <img src={@StaticR imgMapFtnt_png} alt="Logo do site" height="150px" width="150px"> 
