@@ -40,7 +40,7 @@ getHomeR = do
     defaultLayout $ do 
     -- addScriptRemote "url" -> CHAMA JS EXTERNO
     -- addScript (StaticR script_js) -> JS INTERNO
-        toWidgetHead $(luciusFile "templates/page2.lucius")
+        toWidgetHead $(luciusFile "templates/home.lucius")
         addStylesheet (StaticR css_bootstrap_css)
         toWidgetHead [julius|
         <!-- Global site tag (gtag.js) - Google Analytics -->
