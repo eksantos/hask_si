@@ -4,7 +4,7 @@
 {-# LANGUAGE QuasiQuotes #-}
 {-# LANGUAGE MultiParamTypeClasses #-}
 {-# LANGUAGE TypeFamilies #-}
-module Handler.Pontos where
+module Handler.Ponto where
 
 import Import
 import Text.Lucius
@@ -30,7 +30,7 @@ getPontoR = do
             <h1>
                 CADASTRO DE Pontos
 
-            <form method=post action=@{PontosR}>
+            <form method=post action=@{PontoR}>
                 ^{widget}
                 <input type="submit" value="Cadastrar">
         |]
