@@ -58,10 +58,9 @@ getHomeR = do
         |]
         
         [whamlet|
-           <head>
+    <head>
         <meta charset="UTF-8"/>
         <title>Review Game FTNT</title>
-        <link rel="stylesheet" type="text/css" href="style.css" />
     </head>
 
     <body>
