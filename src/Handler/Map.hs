@@ -13,10 +13,6 @@ import Database.Persist.Postgresql
 import Text.Julius
 import Text.Lucius
 
-getAdsR :: Handler TypedContent
-getAdsR = return $ TypedContent "text/plain"
-    $ toContent $(embedFile "static/ads.txt")
-
 getMapR :: Handler Html
 getMapR = do 
     defaultLayout $ do 
