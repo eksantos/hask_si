@@ -35,13 +35,6 @@ getPage1R = do
                     Voltar
         |]
 
-getAlunoR :: Handler Html
-getAlunoR = do
-    defaultLayout $ do
-        $(whamletFile "templates/page2.hamlet")
-        toWidgetHead $(luciusFile "templates/page2.lucius")
-        toWidgetHead $(juliusFile "templates/page2.julius")
-
 getHomeR :: Handler Html
 getHomeR = do 
     defaultLayout $ do 
