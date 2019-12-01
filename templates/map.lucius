@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=Londrina+Solid&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Luckiest+Guy&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Mukta&display=swap');
+
+/**
+#f1fa3c amarelo
+#851de0 roxo
+#61f2f5 azul
+*/
+
+header h1{
+    font-size: 3em;
+    color: black;
+    font-family: 'Luckiest Guy', cursive;
+    text-align: center;
+}
+
+div#container{
+    margin: 5% 0;
+    box-shadow: 0 0 1em #222831;
+    padding-bottom: 5%;
+}
+
+div#container h2{
+    font-size: 3em;
+    font-family: 'Mukta', sans-serif;
+    margin: 0 7%;
+}
+
+div#container p:first-of-type {
+    font-size: 1.3em;
+    font-family: 'Mukta', sans-serif;
+    margin: 0 7%;
+}
+
+p#pImg1{
+    background-image: url("imgs/fundo2p.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 600px;
+}
+
+div#container p:nth-of-type(3) {
+    margin-top: 7%;
+}
+
+.elementRight {
+    font-family: 'Mukta', sans-serif;
+    margin: 2% 7%;
+    font-size: 1.3em;
+}
+
+a.btns{
+    padding: 1%;
+    display: inline-block;
+    color: white;
+    font-size: 1.5em;
+    text-decoration: none;
+    background-color: #5c149b;
+    box-shadow: 0 0 1em #222831;
+    font-family: 'Londrina Solid', cursive;
+    margin-top: 3%;
+}
+
+a.btns:hover{
+    /*transform: skew(-20deg);*/
+    background-color: #17ecf0;
+}
+
+a.btns:first-of-type{
+    margin-left: 7%;
+}
+
+
+/*FOOTER*/
+
+footer{
+    height: auto;
+    background-color: #5c149b;
+    box-shadow: 0 0 1em #222831;
+    margin: 0;
+    color: white; 
+}
+
+footer p{
+    text-align: center;
+    padding: 2% 0;
+    font-size: 1.1em;
+}
+
+nav#menuFooter ul li{
+    list-style: none;
+    font-family: 'Londrina Solid', cursive;
+    margin-bottom: 2px;
+}
+
+nav#menuFooter{
+    font-family: 'Londrina Solid', cursive;
+    display: flex;
+    padding-top: 5%;
+}
+
+.divFlexsFooter{
+    flex: 2;
+    text-align: center;
+}
+
+nav#menuFooter ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+}
+
+nav#menuFooter ul li a:hover{
+    color: #17ecf0;
+    padding: 5px;
+}
+
+div#logoFooter{
+   border-left: 1px solid #17ecf0;
+
+}

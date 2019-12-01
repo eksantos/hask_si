@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Londrina+Solid&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Luckiest+Guy&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Mukta&display=swap');
 
 /**
 #f1fa3c amarelo
@@ -23,13 +24,12 @@ header h1{
     color: black;
     font-family: 'Luckiest Guy', cursive;
     text-align: center;
-    padding: 2% 0;
 }
 
 .divFlexs{
     flex: 3;
     margin: 2%;
-    height: 50rem;
+    height: 35rem;
     border: 2px solid #61f2f5;
     text-align: center;
     box-shadow: 0 0 1em #c8cfd9;
@@ -59,25 +59,49 @@ a.btns:hover{
 #divMap{
     background-image: url("static/imgMapFtnt.png");
     background-position: center;
+    background-repeat: no-repeat;
 }
 
 #divPouso{
     background-image: url("static/imgpouso.jpeg");
     background-position: center;
+    background-repeat: no-repeat;
 }
 
 #divPontosMap{
     background-image: url("static/imgpontosdomapa.jpeg");
     background-position: center;
+    background-repeat: no-repeat;
 }
 
 div#container{
     margin: 5% 0;
 }
 
+div#container h2{
+    font-size: 3em;
+}
+
+div#container h2, div#container p:first-of-type, div#container p:nth-of-type(3) {
+    font-family: 'Mukta', sans-serif;
+    margin: 0 7%;
+}
+
+div#container p:first-of-type, div#container p:nth-of-type(3){
+    font-size: 1.2em;
+}
+
 
 p#pImg1{
     background-image: url("static/fundo2p.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 600px;
+}
+
+p#pImg3{
+    background-image: url("static/fundo3p.png");
+    background-repeat: no-repeat;
     width: 100%;
     height: 600px;
 }
@@ -133,4 +157,5 @@ nav#menuFooter ul li a:hover{
 
 div#logoFooter{
    border-left: 1px solid #17ecf0;
+
 }
