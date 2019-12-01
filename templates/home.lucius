@@ -23,9 +23,7 @@ header h1{
     color: black;
     font-family: 'Luckiest Guy', cursive;
     text-align: center;
-    height: 10rem;
-    margin-top: 50%;
-    margin-bottom: 50%;
+    padding: 2% 0;
 }
 
 .divFlexs{
