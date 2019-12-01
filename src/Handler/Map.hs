@@ -48,8 +48,6 @@ getMapR = do
             <p class="elementRight">The biomes in the map regions are also very varied. Players will find places with coastal landscapes, mountains, lakes, farms, forests and swamps. There are many open and elevated spaces to explore, and this should have a direct impact on gameplay.
             <a href="@{MapR}" class="btns">find your map
             <a href="@{MapR}" class="btns">locations on the map
-        </div>
-        
                 
         <footer>
             <nav id="menuFooter">
