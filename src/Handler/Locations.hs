@@ -13,7 +13,7 @@ import Text.Julius
 import Database.Persist.Postgresql
 
 pontoCB = do
-  rows <- runDB $ selectList [] [Asc PontosNome]
+  rows <- runDB $ selectList [] [Asc PontoNome]
   optionsPairs $ 
       map (\r -> (pontoNome $ entityVal r, entityKey r)) rows
 
@@ -25,10 +25,9 @@ formLocations = renderBootstrap $ Locations
 
 getLocationsR :: PontoId -> Handler Html
 getLocationsR pontoid = do 
-    let sql = "SELECT ?? FROM pontos \
-          \ WHERE pontos.id = ?"
-    pontos <- runDB $ rawSql sql [toPersistValue pontosid] :: Handler [(Entity Ponto, Entity Locations)]
-    atores <- runDB $ 
+    let sql = "SELECT ?? FROM ponto \
+          \ WHERE ponto.id = ?"
+    ponto <- runDB $ rawSql sql [toPersistValue pontosid] :: Handler [(Entity Ponto, Entity Locations)]
     defaultLayout $ do 
         [whamlet|
             <h1>
