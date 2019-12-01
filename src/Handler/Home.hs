@@ -64,7 +64,7 @@ getHomeR = do
 
         <main>
             <div class="divFlexs" id="divMap">
-                <a href=@{HomeR} class="btns">find your map</a>
+                <a href=@{HomeR} class="btns">find your map
 
             <div class="divFlexs" id="divPouso">
                 <a href=@{HomeR} class="btns">locations on the map
