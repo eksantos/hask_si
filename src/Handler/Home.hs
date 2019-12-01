@@ -55,31 +55,22 @@ getHomeR = do
         toWidgetHead [lucius|
         @import url('https://fonts.googleapis.com/css?family=Londrina+Solid&display=swap');
         @import url('https://fonts.googleapis.com/css?family=Luckiest+Guy&display=swap');
-
-        /**
-        #f1fa3c amarelo
-        #851de0 roxo
-        #61f2f5 azul
-        */
         
         body{
            
         }
-        
         main{
             background-color: #fbfbfb;
             display: flex;
             padding: 50px;
             box-shadow: 0 0 1em #222831;
         }
-        
         header h1{
             font-size: 3em;
             color: black;
             font-family: 'Luckiest Guy', cursive;
             text-align: center;
         }
-        
         .divFlexs{
             flex: 3;
             margin: 2%;
@@ -140,8 +131,7 @@ getHomeR = do
             text-align: right;
         }
         
-        
-        /*FOOTER*/
+    
         
         footer{
             height: auto;
@@ -188,7 +178,9 @@ getHomeR = do
         div#logoFooter{
            border-left: 1px solid #17ecf0;;
         }
+        
         |]
+        
         [whamlet|
            <header>
                 <h1>Review Game FTNT
@@ -223,7 +215,7 @@ getHomeR = do
                 <div id="logoFooter" class="divFlexsFooter">
                         <img src="imgs/imgMapFtnt.png" alt="Logo do site" height="150px" width="150px"> 
     
-            <p>© 2019 - Review Game FTNT</p>
+            <p>© 2019 - Review Game FTNT
         <!-
            $maybe nome <- sess
                     <li>
