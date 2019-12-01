@@ -23,12 +23,13 @@ header h1{
     color: black;
     font-family: 'Luckiest Guy', cursive;
     text-align: center;
+    height: 10rem;
 }
 
 .divFlexs{
     flex: 3;
     margin: 2%;
-    height: 35rem;
+    height: 45rem;
     border: 2px solid #61f2f5;
     text-align: center;
     box-shadow: 0 0 1em #c8cfd9;
