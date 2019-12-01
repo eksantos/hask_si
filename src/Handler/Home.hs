@@ -69,13 +69,13 @@ getHomeR = do
 
             <div class="divFlexs" id="divPontosMap"><a href=@{HomeR} class="btns">discover your world
 
-        <div id="container">
-            <h2>about Us
-            <p>This site is about the review of the game Fortinite Chapter 2. This idea came because we, just like you, are Gamers who wants to help other people with Tips and Knowledge. We share everything we know about the Map, Locations, Treasures, Better Ways to survive and a lot more to be #1. Let's help each other and make this the best experience of the game ever. 
-            <p id="pImg1"> oi
-            <h2 class="elementRight">Lorem Ipsum
-            <p class="elementRight">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-            
+            <div id="container">
+                <h2>about Us
+                <p>This site is about the review of the game Fortinite Chapter 2. This idea came because we, just like you, are Gamers who wants to help other people with Tips and Knowledge. We share everything we know about the Map, Locations, Treasures, Better Ways to survive and a lot more to be #1. Let's help each other and make this the best experience of the game ever. 
+                <p id="pImg1"> oi
+                <h2 class="elementRight">Lorem Ipsum
+                <p class="elementRight">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                
         <footer>
             <nav id="menuFooter">
                 <ul class="divFlexsFooter">
