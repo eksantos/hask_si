@@ -76,7 +76,7 @@ div#container{
 
 
 p#pImg1{
-    background-image: url("imgs/fundo2p.png");
+    background-image: url("static/fundo2p.png");
     width: 100%;
     height: 600px;
 }

@@ -59,6 +59,10 @@ getHomeR = do
         
         [whamlet|
         
+        <head>
+            <meta charset="UTF-8"/>
+            <title>Review Game FTNT
+        
         <header><title>Review Game FTNT
 
         <main>
