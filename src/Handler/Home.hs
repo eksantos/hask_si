@@ -58,7 +58,6 @@ getHomeR = do
         |]
         
         [whamlet|
-    <head>
         <title>Review Game FTNT
 
         <main>
