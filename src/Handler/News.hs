@@ -54,16 +54,3 @@ postEmailR = do
             |]
             redirect EmailR
         _ -> redirect HomeR
-
-getListEmailR :: Handler Html 
-getListEmailR = do 
-    -- select * from aluno order by aluno.nome
-    emails <- runDB $ selectList [] [Asc EmailNome]
-    defaultLayout $ do 
-        $(whamletFile "templates/news.hamlet")
-
-postApagarEmailR :: EmailId -> Handler Html 
-postApagarEmailR aid = do 
-    _ <- runDB $ get404 aid
-    runDB $ delete aid 
-    redirect ListEmailR
