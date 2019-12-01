@@ -58,6 +58,7 @@ getHomeR = do
         |]
         
         [whamlet|
+        
         <title>Review Game FTNT
 
         <main>
@@ -87,7 +88,6 @@ getHomeR = do
                     <li><a href=@{HomeR}>Characters
                     <li><a href=@{HomeR}>Chapter 2
                     <li><a href=@{HomeR}>Buy Fortnite
-                </ul>
                 <div id="logoFooter" class="divFlexsFooter">
                         <img src={@StaticR imgMapFtnt_png} alt="Logo do site" height="150px" width="150px"> 
             <p>© 2019 - Review Game FTNT
