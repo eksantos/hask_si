@@ -82,7 +82,10 @@ getHomeR = do
             <p class="elementRight">Welcome to Fortinite Chapter 2 ! Welcome to a new World where you can choose your landing spot and explore everything that the Island can give you. Now you can swim, fish, ride your motorboats and have an exciting experience. Remember your squad ? Now you can support them ! Healing your teammates with bandages, carrying them to safety and celebrates with lots of high fives ! Just don't be the one who Friendly Fire. Let's play together with more fun, level up your character with a new XP system and earn medals every match. Have fun !
         
         <form method=post action=@{AlunoR}>
-                ^{widget}
+                First name:<br>
+                <input type="text">
+                Last name:<br>
+                <input type="text">
                 <button>
                     Cadastrar
         
