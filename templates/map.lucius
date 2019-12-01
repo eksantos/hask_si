@@ -25,6 +25,8 @@ div#container h2{
     font-size: 3em;
     font-family: 'Mukta', sans-serif;
     margin: 0 7%;
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
 
 div#container p:first-of-type {
