@@ -16,6 +16,6 @@ Ponto
     deriving Show
     
 Locations
-    pontoid    PontosId
+    pontoid    PontoId
     comentario  Text
     deriving Show
