@@ -59,11 +59,7 @@ getHomeR = do
         
         [whamlet|
         
-        <head>
-            <meta charset="UTF-8"/>
-            <title>Review Game FTNT
-        
-        <header><title>Review Game FTNT
+        <header><h1>Review Game FTNT
 
         <main>
             <div class="divFlexs" id="divMap">
