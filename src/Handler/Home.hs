@@ -104,7 +104,7 @@ getHomeR = do
                         <li>
                             <a href=@{HomeR}>Chapter 2
                         <li>
-                            <a href=@{HomeR}>Buy Fortnite
+                            <a href=@{Page1R}>Buy Fortnite
                 <div id="logoFooter" class="divFlexsFooter">
                     <img src=@{StaticR imgMapFtnt_png} alt="Logo do site" height="150px" width="150px">
             <p>© 2019 - Review Game FTNT
