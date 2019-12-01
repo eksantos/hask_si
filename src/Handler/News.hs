@@ -58,9 +58,9 @@ postEmailR = do
 getListEmailR :: Handler Html 
 getListEmailR = do 
     -- select * from aluno order by aluno.nome
-    alunos <- runDB $ selectList [] [Asc EmailNome]
+    emails <- runDB $ selectList [] [Asc EmailNome]
     defaultLayout $ do 
-        $(whamletFile "templates/alunos.hamlet")
+        $(whamletFile "templates/news.hamlet")
 
 postApagarEmailR :: EmailId -> Handler Html 
 postApagarEmailR aid = do 
