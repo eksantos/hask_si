@@ -5,16 +5,3 @@
                 NOME
             <th>
                 EMAIL
-    {-<tbody>
-        *$forall Entity aid email <- emails
-            <tr>
-                <td id=#{"nome" ++ show (fromSqlKey aid)}>
-                    #{alunoNome aluno}
-                <td>
-                    #{alunoRa aluno}
-                <td>
-                    #{show $ alunoDtNasc aluno}
-                <td>
-                    <form method=post action=@{ApagarAlunoR aid}>
-                        <button>
-                            X *-}
