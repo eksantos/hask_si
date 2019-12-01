@@ -58,8 +58,8 @@ getHomeR = do
         |]
         
         [whamlet|
-        
-        <title>Review Game FTNT
+        <head>
+            <title>Review Game FTNT
         
         <header><h1>Review Game FTNT
 
