@@ -59,7 +59,6 @@ getLocationsR = do
                 <li class="liFlexs"><a href="#">Retail Row
                 <li class="liFlexs"><a href="#">Pleasant Park
             
-                
         <footer>
             <nav id="menuFooter">
                 <ul class="divFlexsFooter">
