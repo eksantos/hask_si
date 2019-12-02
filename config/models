@@ -10,12 +10,3 @@ Aluno
     ra      Text
     dtNasc  Day
     deriving Show
-    
-Ponto
-    nome    Text
-    deriving Show
-    
-Locations
-    pontoid    PontoId
-    comentario  Text
-    deriving Show
