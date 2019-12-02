@@ -49,7 +49,7 @@ getMapR = do
             <p class="elementRight">Fortnite's new world is dramatically different from past seasons. This is mainly due to the role that water will play in the game. Rivers and lakes center and meet at the center of the map, bringing new ways to explore paths and locomotion to the safe zone.
             <p class="elementRight">The biomes in the map regions are also very varied. Players will find places with coastal landscapes, mountains, lakes, farms, forests and swamps. There are many open and elevated spaces to explore, and this should have a direct impact on gameplay.
             <a href="@{MapR}" class="btns">find your map
-            <a href="@{LocationR}" class="btns">locations on the map
+            <a href="@{LocationsR}" class="btns">locations on the map
                 
         <footer>
             <nav id="menuFooter">

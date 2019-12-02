@@ -20,4 +20,4 @@
 /map        MapR        GET
 /combat     CombatR     GET
 /characters CharactersR GET
-/locations  LocationsR   GET
+/locations  LocationsR  GET
