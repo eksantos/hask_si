@@ -69,10 +69,10 @@ getHomeR = do
                 <a href=@{MapR} class="btns">find your map
 
             <div class="divFlexs" id="divPouso">
-                <a href=@{HomeR} class="btns">locations on the map
+                <a href=@{LocationsR} class="btns">locations on the map
 
             <div class="divFlexs" id="divPontosMap">
-                <a href=@{LocationsR} class="btns">discover your world
+                <a href=@{HomeR} class="btns">discover your world
 
         <div id="container">
             <h2>about Us
