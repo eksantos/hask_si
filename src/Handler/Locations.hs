@@ -4,7 +4,7 @@
 {-# LANGUAGE QuasiQuotes #-}
 {-# LANGUAGE MultiParamTypeClasses #-}
 {-# LANGUAGE TypeFamilies #-}
-module Handler.Combat where
+module Handler.Locations where
 
 import Import
 import Data.FileEmbed (embedFile)
@@ -13,8 +13,8 @@ import Database.Persist.Postgresql
 import Text.Julius
 import Text.Lucius
 
-getCombatR :: Handler Html
-getCombatR = do 
+getLocationsR :: Handler Html
+getLocationsR = do 
     defaultLayout $ do 
     -- addScriptRemote "url" -> CHAMA JS EXTERNO
     -- addScript (StaticR script_js) -> JS INTERNO
