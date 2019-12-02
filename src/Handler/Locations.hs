@@ -27,7 +27,7 @@ getLocationsR :: PontoId -> Handler Html
 getLocationsR pontoid = do 
     let sql = "SELECT ?? FROM ponto \
           \ WHERE ponto.id = ?"
-    ponto <- runDB $ rawSql sql [toPersistValue pontosid] :: Handler [(Entity Ponto, Entity Locations)]
+    pontos <- runDB $ rawSql sql [toPersistValue pontoid] :: Handler [(Entity Ponto, Entity Locations)]
     defaultLayout $ do 
         [whamlet|
             <h1>
