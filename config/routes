@@ -18,5 +18,5 @@
 /admin      AdminR      GET
 
 /map        MapR        GET
-/ponto      PontoR      GET POST
-/locations  LocationsR  GET POST
+/combat     CombatR     GET
+/characters CharactersR GET

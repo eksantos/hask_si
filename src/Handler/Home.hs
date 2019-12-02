@@ -90,9 +90,9 @@ getHomeR = do
                         <li>
                             <a href=@{MapR}>Map
                         <li>
-                            <a href=@{HomeR}>Combat
+                            <a href=@{CombatR}>Combat
                         <li>
-                            <a href=@{HomeR}>Characters
+                            <a href=@{CharactersR}>Characters
                         <li>
                             <a href=@{HomeR}>Chapter 2
                         <li>
