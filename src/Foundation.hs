@@ -30,6 +30,7 @@ instance Yesod App where
     isAuthorized MapR _ = return Authorized
     isAuthorized CharactersR _ = return Authorized
     isAuthorized CombatR _ = return Authorized
+    isAuthorized LocationsR _ = return Authorized
     isAuthorized EntrarR _ = return Authorized
     isAuthorized UsuarioR _ = return Authorized 
     isAuthorized (StaticR _) _ = return Authorized
