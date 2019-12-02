@@ -45,19 +45,32 @@ getLocationsR = do
             <h2>Map Regions
             <p>Find more about your favorite place in the map !
             <ul id="ulRegions">
-                <li class="liFlexs"><a href="#">Sands
-                <li class="liFlexs"><a href="#">Holly Hedges
-                <li class="liFlexs"><a href="#">Weeping Woods
-                <li class="liFlexs"><a href="#">Slurpy Swamp
-                <li class="liFlexs"><a href="#">Misty Meadows
-                <li class="liFlexs"><a href="#">Lazy Lake
-                <li class="liFlexs"><a href="#">Dirty Docks
-                <li class="liFlexs"><a href="#">Frenzy Farm
-                <li class="liFlexs"><a href="#">Steamy Sacks
-                <li class="liFlexs"><a href="#">Craggy Cliffs
-                <li class="liFlexs"><a href="#">Salty Springs
-                <li class="liFlexs"><a href="#">Retail Row
-                <li class="liFlexs"><a href="#">Pleasant Park
+                <li class="liFlexs">
+                    <a href="@{LocationsR}">Sands
+                <li class="liFlexs">
+                    <a href="@{LocationsR}">Holly Hedges
+                <li class="liFlexs">
+                    <a href="@{LocationsR}">Weeping Woods
+                <li class="liFlexs">
+                    <a href="@{LocationsR}">Slurpy Swamp
+                <li class="liFlexs">
+                    <a href="@{LocationsR}">Misty Meadows
+                <li class="liFlexs">
+                    <a href="@{LocationsR}">Lazy Lake
+                <li class="liFlexs">
+                    <a href="@{LocationsR}">Dirty Docks
+                <li class="liFlexs">
+                    <a href="@{LocationsR}">Frenzy Farm
+                <li class="liFlexs">
+                    <a href="@{LocationsR}">Steamy Sacks
+                <li class="liFlexs">
+                    <a href="@{LocationsR}">Craggy Cliffs
+                <li class="liFlexs">
+                    <a href="@{LocationsR}">Salty Springs
+                <li class="liFlexs">
+                    <a href="@{LocationsR}">Retail Row
+                <li class="liFlexs">
+                    <a href="@{LocationsR}">Pleasant Park
             
                 
         <footer>
