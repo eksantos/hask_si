@@ -22,3 +22,4 @@
 /characters CharactersR GET
 /locations  LocationsR  GET
 /chapter    Chapter2R   GET
+/news       HomeNewsR   GET POST
