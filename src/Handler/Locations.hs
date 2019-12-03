@@ -85,7 +85,7 @@ getLocationsR = do
                         <li>
                             <a href=@{CharactersR}>Characters
                         <li>
-                            <a href=@{HomeR}>Chapter 2
+                            <a href=@{Chapter2R}>Chapter 2
                         <li>
                             <a href="https://www.epicgames.com/fortnite/en-US/home" target="_blank">Buy Fortnite
                 <div id="logoFooter" class="divFlexsFooter">
