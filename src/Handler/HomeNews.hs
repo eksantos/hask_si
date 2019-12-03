@@ -22,9 +22,9 @@ getHomeR :: Handler Html
 getHomeR = do 
     (widget,_) <- generateFormPost formLogin
     msg <- getMessage
+    defaultLayout $ do
     $(whamletFile "templates/main.hamlet")
     toWidgetHead $(luciusFile "templates/home.lucius")
-    defaultLayout $ do
         toWidget
             [whamlet|
                 $maybe mensa <- msg 
