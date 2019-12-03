@@ -28,7 +28,8 @@ div#container h2{
     margin: 0 7%;
     padding-top: 2%;
     padding-bottom: 2%;
-    border-left: 2px solid #17ecf0;
+    border-left: 5px solid #17ecf0;
+    padding-left: 2%;
 }
 
 div#container p:first-of-type {
