@@ -14,7 +14,9 @@ header h1{
     font-family: 'Luckiest Guy', cursive;
     text-align: center;
     padding-top: 2%;
-    border-left: 2px solid #17ecf0;
+    padding-left: 2%;
+    border-left: 5px solid #17ecf0;
+    
 }
 
 div#container{
