@@ -21,4 +21,4 @@
 /combat     CombatR     GET
 /characters CharactersR GET
 /locations  LocationsR  GET
-/chapter    Chapter2    GET
+/chapter    Chapter2R   GET
