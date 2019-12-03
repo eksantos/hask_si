@@ -10,3 +10,8 @@ Aluno
     ra      Text
     dtNasc  Day
     deriving Show
+    
+Noticias
+    nome    Text
+    email   Text
+    deriving Show

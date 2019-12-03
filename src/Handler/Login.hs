@@ -22,7 +22,8 @@ getEntrarR :: Handler Html
 getEntrarR = do 
     (widget,_) <- generateFormPost formLogin
     msg <- getMessage
-    defaultLayout $ 
+    defaultLayout $
+    toWidget
         [whamlet|
             $maybe mensa <- msg 
                 <div>
@@ -35,7 +36,8 @@ getEntrarR = do
                 ^{widget}
                 <input type="submit" value="Entrar">
         |]
-
+    $(whamletFile "templates/footer.hamlet")
+    
 postEntrarR :: Handler Html
 postEntrarR = do 
     ((result,_),_) <- runFormPost formLogin

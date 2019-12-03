@@ -1,0 +1,18 @@
+<footer>
+    <nav id="menuFooter">
+        <ul class="divFlexsFooter">
+            <li>
+                <a href=@{HomeR}>Home
+            <li>
+                <a href=@{MapR}>Map
+            <li>
+                <a href=@{CombatR}>Combat
+            <li>
+                <a href=@{CharactersR}>Characters
+            <li>
+                <a href=@{Chapter2R}>Chapter 2
+            <li>
+                <a href="https://www.epicgames.com/fortnite/en-US/home" target="_blank">Buy Fortnite
+        <div id="logoFooter" class="divFlexsFooter">
+            <img src=@{StaticR imgMapFtnt_png} alt="Logo do site" height="150px" width="150px">
+    <p>© 2019 - Review Game FTNT
