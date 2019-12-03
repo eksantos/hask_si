@@ -13,6 +13,7 @@ header h1{
     color: black;
     font-family: 'Luckiest Guy', cursive;
     text-align: center;
+    padding: 2% 0;
 }
 
 div#container{
