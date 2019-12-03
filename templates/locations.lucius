@@ -47,6 +47,10 @@ p#pImg1{
     width: 100%;
     height: 600px;
 }
+#container p {
+    text-align:center;
+    padding: 2% 0;
+}
 
 ul#ulRegions{
     margin: 0;
