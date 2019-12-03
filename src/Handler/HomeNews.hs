@@ -69,5 +69,3 @@ postHomeR = do
                         |]
                         redirect EntrarR 
         _ -> redirect HomeR
-
-    |]
