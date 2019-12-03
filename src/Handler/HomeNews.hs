@@ -41,8 +41,8 @@ getHomeR = do
         $(whamletFile "templates/footer.hamlet")
     
     
-postEntrarR :: Handler Html
-postEntrarR = do 
+postHomeR :: Handler Html
+postHomeR = do 
     ((result,_),_) <- runFormPost formLogin
     case result of 
         FormSuccess ("root@root.com","root125") -> do 
@@ -69,15 +69,3 @@ postEntrarR = do
                         |]
                         redirect EntrarR 
         _ -> redirect HomeR
-
-postSairR :: Handler Html
-postSairR = do
-    deleteSession "_NOME"
-    redirect HomeR
-    
-getAdminR :: Handler Html
-getAdminR = do
-    defaultLayout [whamlet|
-        <h1>
-            BEM-VINDO
-    |]
