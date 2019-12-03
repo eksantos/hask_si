@@ -23,8 +23,8 @@ getHomeR = do
     (widget,_) <- generateFormPost formLogin
     msg <- getMessage
     defaultLayout $ do
-    $(whamletFile "templates/main.hamlet")
-    toWidgetHead $(luciusFile "templates/home.lucius")
+        $(whamletFile "templates/main.hamlet")
+        toWidgetHead $(luciusFile "templates/home.lucius")
         toWidget
             [whamlet|
                 $maybe mensa <- msg 
