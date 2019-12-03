@@ -51,6 +51,7 @@ p#pImg1{
 ul#ulRegions{
     margin: 0;
     padding: 0;
+    text-align:center;
 }
 
 ul#ulRegions li a{
