@@ -54,11 +54,6 @@ getHomeR = do
 
             gtag('config', 'UA-72614868-2');
         |]
-        toWidgetHead [lucius|
-       
-        
-        |]
-        
         [whamlet|
         <head>
             <title>Review Game FTNT
@@ -93,8 +88,7 @@ postNoticiasR :: Handler Html
 postNoticiasR = do 
     ((result,_),_) <- runFormPost formLogin
     case result of 
-        FormSuccess noticia -> do 
-           -- select * from usuario where email=digitado.email
+        FormSuccess noticia -> do
             noticiaId <- insert $ Noticia noticia
             setMessage [shamlet|
                         <div>
