@@ -91,7 +91,7 @@ formNoticias = renderBootstrap $ (,)
     <*>
 
 
-postNoticiasR :: Handler ()
+postNoticiasR :: Handler Html
 postNoticiasR = do 
     ((result,_),_) <- runFormPost formNoticias
     case result of 
@@ -101,7 +101,9 @@ postNoticiasR = do
                         <div>
                             noticia #{noticiaId} inserida
                        |]
+            redirect HomeR 
         _ -> setMessage 
             [shamlet|
                 <p>ERRO
             |]
+             redirect HomeR 
