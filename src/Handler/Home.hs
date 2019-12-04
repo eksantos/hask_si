@@ -98,7 +98,7 @@ postNoticiasR = do
                         <div>
                             noticia #{noticiaId} inserida
                        |]
-        _ -> defaultLayout 
-            [whamlet|
+        _ -> setMessage 
+            [shamlet|
                 <p>ERRO
             |]
