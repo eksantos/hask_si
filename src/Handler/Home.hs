@@ -84,6 +84,11 @@ getHomeR = do
         |]
         $(whamletFile "templates/footer.hamlet")
 
+formNoticias :: Form (Text, Text)
+formNoticias = renderBootstrap $ (,)
+    <$> areq textField "Nome: " Nothing
+    <*> areq emailField "E-mail: " Nothing
+
 postNoticiasR :: Handler Html
 postNoticiasR = do 
     ((result,_),_) <- runFormPost formLogin
