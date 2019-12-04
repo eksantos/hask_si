@@ -18,8 +18,8 @@ formLogin = renderBootstrap $ (,)
     <$> areq emailField "E-mail: " Nothing
     <*> areq passwordField "Senha: " Nothing
     
-getHomeNR :: Handler Html
-getHomeNR = do 
+getHomeNewsR :: Handler Html
+getHomeNewsR = do 
     (widget,_) <- generateFormPost formLogin
     msg <- getMessage
     defaultLayout $ do
@@ -41,8 +41,8 @@ getHomeNR = do
         $(whamletFile "templates/footer.hamlet")
     
     
-postHomeNR :: Handler Html
-postHomeNR = do 
+postHomeNewsR :: Handler Html
+postHomeNewsR = do 
     ((result,_),_) <- runFormPost formLogin
     case result of 
         FormSuccess ("root@root.com","root125") -> do 
