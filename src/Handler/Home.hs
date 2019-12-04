@@ -78,8 +78,8 @@ getHomeR = do
             <p class="elementRight">Welcome to Fortinite Chapter 2 ! Welcome to a new World where you can choose your landing spot and explore everything that the Island can give you. Now you can swim, fish, ride your motorboats and have an exciting experience. Remember your squad ? Now you can support them ! Healing your teammates with bandages, carrying them to safety and celebrates with lots of high fives ! Just don't be the one who Friendly Fire. Let's play together with more fun, level up your character with a new XP system and earn medals every match. Have fun !
             <p id="pImg3">
         <form method=post action=@{postNoticiasR}>
-                    ^{widget}
-                    <input type="submit" value="Cadastrar">
+            ^{widget}
+            <input type="submit" value="Cadastrar">
         |]
         $(whamletFile "templates/footer.hamlet")
 
@@ -90,7 +90,7 @@ formNoticias = renderBootstrap $ (,)
 
 postNoticiasR :: Handler Html
 postNoticiasR = do 
-    ((result,_),_) <- runFormPost formLogin
+    ((result,_),_) <- runFormPost formNoticias
     case result of 
         FormSuccess noticia -> do
             noticiaId <- insert $ Noticia noticia
