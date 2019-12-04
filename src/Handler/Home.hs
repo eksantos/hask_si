@@ -53,7 +53,7 @@ getHomeR = do
 
             gtag('config', 'UA-72614868-2');
         |]
-       -- $(whamletFile "templates/main.hamlet")
+        $(whamletFile "templates/main.hamlet")
         [whamlet|
             <form method=post action=@{NoticiasR}>
                 ^{widget}
