@@ -85,9 +85,11 @@ getHomeR = do
 
 formNoticias :: Form (Noticias)
 formNoticias = renderBootstrap $ (,)
-    <$> areq textField "Nome: " Nothing
-    <*> areq textField "E-mail: " Nothing
-
+    <$> (Noticias 
+        <$> areq textField "Nome: " Nothing
+        <*> areq textField "E-mail: " Nothing
+    <*>
+    
 postNoticiasR :: Handler ()
 postNoticiasR = do 
     ((result,_),_) <- runFormPost formNoticias
