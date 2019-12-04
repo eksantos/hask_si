@@ -87,11 +87,11 @@ formNoticias :: Form (Noticias)
 formNoticias = renderBootstrap $ (,)
     <$> (Noticias 
         <$> areq textField "Nome: " Nothing
-        <*> areq textField "E-mail: " Nothing
-    )<*>
+        <*> areq textField "E-mail: " Nothing)
+    <*>
 
 
-postNoticiasR :: Handler Html
+postNoticiasR :: Handler ()
 postNoticiasR = do 
     ((result,_),_) <- runFormPost formNoticias
     case result of 
@@ -101,9 +101,7 @@ postNoticiasR = do
                         <div>
                             noticia #{noticiaId} inserida
                        |]
-            redirect HomeR 
         _ -> setMessage 
             [shamlet|
                 <p>ERRO
             |]
-             redirect HomeR 
