@@ -55,9 +55,9 @@ getHomeR = do
         |]
        -- $(whamletFile "templates/main.hamlet")
         [whamlet|
-        <form method=post action=@{postNoticiasR}>
-            ^{widget}
-            <input type="submit" value="Cadastrar">
+            <form method=post action=@{postNoticiasR}>
+                ^{widget}
+                <input type="submit" value="Cadastrar">
         |]
         $(whamletFile "templates/footer.hamlet")
 
