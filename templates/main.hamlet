@@ -2,7 +2,8 @@
     <title>Review Game FTNT
         
     <header>
-        <h1><a href=@{HomeR}>Review Game FTNT
+        <h1>
+            <a href=@{HomeR}>Review Game FTNT
 
     <main>
         <div class="divFlexs" id="divMap">
