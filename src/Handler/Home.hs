@@ -23,6 +23,12 @@ getPage2R = do
         $(whamletFile "templates/page2.hamlet")
         toWidgetHead $(luciusFile "templates/page2.lucius")
         toWidgetHead $(juliusFile "templates/page2.julius")
+
+formNoticias :: Form Noticias
+formNoticias = renderBootstrap $ (,)
+    <$> (Noticias 
+        <$> areq textField "Nome: " Nothing
+        <*> areq textField "E-mail: " Nothing)
     
 getPage1R :: Handler Html
 getPage1R = do
@@ -82,13 +88,6 @@ getHomeR = do
             <input type="submit" value="Cadastrar">
         |]
         $(whamletFile "templates/footer.hamlet")
-
-formNoticias :: Form Noticias
-formNoticias = renderBootstrap $ (,)
-    <$> (Noticias 
-        <$> areq textField "Nome: " Nothing
-        <*> areq textField "E-mail: " Nothing)
-
 
 postNoticiasR :: Handler ()
 postNoticiasR = do 
