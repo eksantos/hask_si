@@ -95,8 +95,12 @@ postNoticiasR = do
     case result of 
         FormSuccess noticia -> do 
            -- select * from usuario where email=digitado.email
-            usuario <- insert $ Noticia noticia
+            noticiaId <- insert $ Noticia noticia
             setMessage [shamlet|
                         <div>
-                            Noticia inserida
+                            Noticia #{noticiaId} inserida
                        |]
+        _ -> defaultLayout 
+            [whamlet|
+                <p>ERRO
+            |]
