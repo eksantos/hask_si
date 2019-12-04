@@ -42,8 +42,6 @@ getHomeR = do
     -- addScript (StaticR script_js) -> JS INTERNO
         toWidgetHead $(luciusFile "templates/home.lucius")
         addStylesheet (StaticR css_bootstrap_css)
-        (widget,_) <- generateFormPost formNoticias
-        msg <- getMessage
         toWidgetHead [julius|
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-72614868-2"></script>
@@ -54,6 +52,7 @@ getHomeR = do
 
             gtag('config', 'UA-72614868-2');
         |]
+        (widget,_) <- generateFormPost formNoticias
         [whamlet|
         <head>
             <title>Review Game FTNT
