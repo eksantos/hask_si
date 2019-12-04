@@ -92,7 +92,7 @@ postNoticiasR = do
             noticiaId <- insert $ Noticia noticia
             setMessage [shamlet|
                         <div>
-                            Noticia #{noticiaId} inserida
+                            noticia #{noticiaId} inserida
                        |]
         _ -> defaultLayout 
             [whamlet|
