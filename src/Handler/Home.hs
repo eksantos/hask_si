@@ -95,7 +95,7 @@ postNoticiasR = do
     ((result,_),_) <- runFormPost formNoticias
     case result of 
         FormSuccess noticia -> do
-            insert $ noticia
+            runDB $ insert $ noticia
             setMessage [shamlet|
                         <div>
                             noticia inserida
