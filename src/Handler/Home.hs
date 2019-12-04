@@ -44,18 +44,12 @@ getHomeR = do
         toWidgetHead $(luciusFile "templates/home.lucius")
         addStylesheet (StaticR css_bootstrap_css)
         toWidgetHead [julius|
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-72614868-2"></script>
-            <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-             gtag('js', new Date());
 
-            gtag('config', 'UA-72614868-2');
         |]
         $(whamletFile "templates/main.hamlet")
         [whamlet|
             <form method=post action=@{NoticiasR}>
+                <input type="text">
                 ^{widget}
                 <input type="submit" value="Cadastrar">
         |]
