@@ -36,7 +36,8 @@ getPage1R = do
         |]
 
 getHomeR :: Handler Html
-getHomeR = do 
+getHomeR = do
+    (widget,_) <- generateFormPost formNoticias
     defaultLayout $ do 
     -- addScriptRemote "url" -> CHAMA JS EXTERNO
     -- addScript (StaticR script_js) -> JS INTERNO
@@ -52,7 +53,6 @@ getHomeR = do
 
             gtag('config', 'UA-72614868-2');
         |]
-        (widget,_) <- generateFormPost formNoticias
         [whamlet|
         <head>
             <title>Review Game FTNT
