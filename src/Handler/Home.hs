@@ -88,7 +88,7 @@ formNoticias = renderBootstrap $ (,)
     <$> (Noticias 
         <$> areq textField "Nome: " Nothing
         <*> areq textField "E-mail: " Nothing
-    <*>
+    )<*>
 
 
 postNoticiasR :: Handler Html
