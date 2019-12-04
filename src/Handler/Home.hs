@@ -70,7 +70,4 @@ postNoticiasR = do
                             noticia inserida
                        |]
             redirect HomeR
-        _ -> setMessage [shamlet|
-                <p>ERRO
-            |]
-            redirect HomeR
+        _ -> redirect HomeR
