@@ -83,7 +83,7 @@ getHomeR = do
         |]
         $(whamletFile "templates/footer.hamlet")
 
-formNoticias :: Form (Noticias)
+formNoticias :: Form Noticias
 formNoticias = renderBootstrap $ (,)
     <$> (Noticias 
         <$> areq textField "Nome: " Nothing
