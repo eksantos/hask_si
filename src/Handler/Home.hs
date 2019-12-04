@@ -49,7 +49,6 @@ getHomeR = do
         $(whamletFile "templates/main.hamlet")
         [whamlet|
             <form method=post action=@{NoticiasR}>
-                <input type="text">
                 ^{widget}
                 <input type="submit" value="Cadastrar">
         |]
@@ -60,7 +59,7 @@ formNoticias = renderBootstrap $ Noticias
     <$> areq textField "Nome: " Nothing
     <*> areq textField "E-mail: " Nothing
 
-postNoticiasR :: Handler ()
+postNoticiasR :: Handler Html
 postNoticiasR = do 
     ((result,_),_) <- runFormPost formNoticias
     case result of 
@@ -70,6 +69,8 @@ postNoticiasR = do
                         <div>
                             noticia inserida
                        |]
+            redirect HomeR
         _ -> setMessage [shamlet|
                 <p>ERRO
             |]
+            redirect HomeR
