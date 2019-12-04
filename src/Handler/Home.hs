@@ -93,7 +93,7 @@ postNoticiasR = do
     ((result,_),_) <- runFormPost formNoticias
     case result of 
         FormSuccess noticia -> do
-            noticiaId <- insert $ Noticia noticia
+            noticiaId <- insert $ Noticias noticia
             setMessage [shamlet|
                         <div>
                             noticia #{noticiaId} inserida
