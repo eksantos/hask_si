@@ -66,7 +66,7 @@ postNoticiasR = do
         FormSuccess (noticia) -> do
             runDB $ insert $ noticia
             setMessage [shamlet|
-                        <div>
+                        <div class="cadSucesso">
                             noticia inserida
                        |]
             redirect HomeR
