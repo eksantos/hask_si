@@ -39,7 +39,7 @@ getLocationsR = do
         <head>
             <title>Review Game FTNT
             
-        <header><h1>Review Game FTNT </h1></header>
+        <header><h1><a href=@{HomeR}>Review Game FTNT </h1></header>
         
         <div id="container">
             <h2>Map Regions
