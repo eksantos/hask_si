@@ -147,7 +147,7 @@ form div input{
 
 #btnRegister:hover{
     background-color: #61f2f5;
-    height:2%;
+    height:5%;
     
 }
 
