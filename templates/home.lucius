@@ -115,8 +115,13 @@ form{
     background-color: #3d0d67;
     color: white;
     padding: 3% 0;
+    display:flex;
 }
 
+form div{
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 2em;
+}
 
 /*FOOTER*/
 
