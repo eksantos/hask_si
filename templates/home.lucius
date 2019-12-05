@@ -113,6 +113,8 @@ p#pImg3{
 
 form{
     background-color: #3d0d67;
+    color: white;
+    padding: 3% 0;
 }
 
 
