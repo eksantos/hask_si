@@ -14,6 +14,6 @@
                 <td>
                     #{noticiasEmail noticias}
                 <td>
-                    <form method=post action=@{ApagarAlunoR aid}>
+                    <form method=post action=@{ApagarNoticiasR aid}>
                         <button>
                             X
