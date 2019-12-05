@@ -144,12 +144,13 @@ form div input{
     font-size: 1.5em;
     border:none;
     flex:1;
-    margin: 3%;
+    margin: 3% 3% 3% 0;
+    
 }
 
 #btnRegister:hover{
     background-color: #61f2f5;
-    height:5%;
+    
     
 }
 
