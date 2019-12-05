@@ -13,6 +13,11 @@ a#linkH1{
    color: #5c149b !importan;
 }
 
+a#linkH1:hover{
+   text-decoration:none;
+   color: #5c149b !importan;
+}
+
 main{
     background-color: #fbfbfb;
     display: flex;
