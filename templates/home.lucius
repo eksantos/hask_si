@@ -121,6 +121,7 @@ form{
 
 form div{
     margin: 5%;
+    background-color:red;
 }
 
 form div label{
