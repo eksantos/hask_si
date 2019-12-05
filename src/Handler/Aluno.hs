@@ -62,6 +62,7 @@ getListAlunoR = do
     alunos <- runDB $ selectList [] [Asc AlunoNome]
     defaultLayout $ do 
         $(whamletFile "templates/alunos.hamlet")
+        toWidgetHead $(luciusFile "templates/home.lucius")
 
 postApagarAlunoR :: AlunoId -> Handler Html 
 postApagarAlunoR aid = do 
