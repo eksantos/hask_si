@@ -124,8 +124,10 @@ form div label{
     flex:3;
 }
 
-form div{
-    font-size: 1.1em;
+form div input{
+    font-size: 1.2em;
+    color: black;
+    padding:2%;
 }
 
 
