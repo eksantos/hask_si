@@ -34,7 +34,7 @@ getEntrarR = do
                 
                 <form method=post action=@{EntrarR}>
                     ^{widget}
-                    <input type="submit" value="Entrar" id="btnRegister">
+                    <input type="submit" value="Entrar" id="btnRegister" style="color:white">
             |]
         $(whamletFile "templates/footer.hamlet")
         toWidgetHead $(luciusFile "templates/home.lucius")
