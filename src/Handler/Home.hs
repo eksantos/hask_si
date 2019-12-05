@@ -16,24 +16,6 @@ import Text.Lucius
 getAdsR :: Handler TypedContent
 getAdsR = return $ TypedContent "text/plain"
     $ toContent $(embedFile "static/ads.txt")
-    
-getPage2R :: Handler Html
-getPage2R = do
-    defaultLayout $ do
-        $(whamletFile "templates/page2.hamlet")
-        toWidgetHead $(luciusFile "templates/page2.lucius")
-        toWidgetHead $(juliusFile "templates/page2.julius")
-    
-getPage1R :: Handler Html
-getPage1R = do
-    defaultLayout $ do
-        addScript (StaticR ola_js)
-        [whamlet|
-            <h1>
-                PAGINA 1
-                <a href=@{HomeR} id="linkH1">
-                    Voltar
-        |]
 
 getHomeR :: Handler Html
 getHomeR = do

@@ -5,12 +5,6 @@ Usuario
     UniqueEmailIx   email
     deriving Show
     
-Aluno 
-    nome    Text
-    ra      Text
-    dtNasc  Day
-    deriving Show
-    
 Noticias
     nome    Text
     email   Text
