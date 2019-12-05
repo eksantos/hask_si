@@ -64,6 +64,6 @@ getChapter2R = do
                         <li>
                             <a href="https://www.epicgames.com/fortnite/en-US/home" target="_blank">Buy Fortnite
                 <div id="logoFooter" class="divFlexsFooter">
-                    <img src=@{StaticR imgMapFtnt_png} alt="Logo do site" height="150px" width="150px">
+                    <img src=@{StaticR imgMapFtnt_png} alt="Logo do site" height="128px" width="203px">
             <p>© 2019 - Review Game FTNT
         |]
