@@ -25,4 +25,4 @@
 
 /noticia    NoticiasR       POST
 /listan     ListNoticiasR   GET
-/noticia/#NoticiaId/delete ApagarNoticiasR POST
+/noticia/#NoticiasId/delete ApagarNoticiasR POST
