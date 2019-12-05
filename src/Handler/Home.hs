@@ -42,7 +42,7 @@ getHomeR = do
     -- addScriptRemote "url" -> CHAMA JS EXTERNO
     -- addScript (StaticR script_js) -> JS INTERNO
         toWidgetHead $(luciusFile "templates/home.lucius")
-        --addStylesheet (StaticR css_bootstrap_css)
+        addStylesheet (StaticR css_bootstrap_css)
         toWidgetHead [julius|
 
         |]
