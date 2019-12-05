@@ -50,7 +50,7 @@ getHomeR = do
         [whamlet|
             <form method=post action=@{NoticiasR}>
                 ^{widget}
-                <input type="submit" value="Cadastrar">
+                <input type="submit" value="register" id="btnRegister">
         |]
         $(whamletFile "templates/footer.hamlet")
 

@@ -116,6 +116,7 @@ form{
     color: white;
     padding: 3% 0;
     display:flex;
+    text-align:center;
 }
 
 form div label{
@@ -126,10 +127,14 @@ form div label{
 
 form div input{
     font-size: 1.2em;
-    color: black;
+    color: #280944;
     padding:2%;
 }
 
+#btnRegister{
+    background-color: #280944;
+    font-size: 1.5em;
+}
 
 /*FOOTER*/
 
