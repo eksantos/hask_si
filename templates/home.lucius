@@ -8,8 +8,9 @@
 #61f2f5 azul
 */
 
-body{
-   
+a#linkH1{
+   text-decoration:none;
+   color:#5c149b;
 }
 
 main{
