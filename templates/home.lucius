@@ -122,12 +122,13 @@ form{
 form div{
     margin: 5%;
     background-color:red;
+    flex:2;
 }
 
 form div label{
     font-family: 'Luckiest Guy', cursive;
     font-size: 2em;
-    flex:1;
+    
 }
 
 form div input{
