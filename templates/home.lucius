@@ -162,8 +162,13 @@ form div input{
 
 #cadSucesso{
     text-align:center;
-    font-size:1.1;
-    color:#00ff00;
+    font-size:1;
+    color: green;
+}
+
+h1#h1Form{
+    text-align:right;
+    color:#3d0d67;
 }
 
 /*FOOTER*/
