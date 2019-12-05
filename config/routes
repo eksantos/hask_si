@@ -23,4 +23,6 @@
 /locations  LocationsR  GET
 /chapter    Chapter2R   GET
 
-/noticia    NoticiasR   POST
+/noticia    NoticiasR       POST
+/listan     ListNoticiasR   GET
+/noticia/#NoticiaId/delete ApagarNoticiasR POST

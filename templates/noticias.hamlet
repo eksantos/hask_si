@@ -1,0 +1,19 @@
+<table>
+    <thead>
+        <tr>
+            <th>
+                NOME
+            <th>
+                E-MAIL
+            <th>
+    <tbody>
+        $forall Entity aid noticia <- noticias
+            <tr>
+                <td>
+                    #{noticiasNome noticias}
+                <td>
+                    #{noticiasEmail noticias}
+                <td>
+                    <form method=post action=@{ApagarAlunoR aid}>
+                        <button>
+                            X
