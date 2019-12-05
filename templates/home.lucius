@@ -167,7 +167,7 @@ form div input{
 }
 
 h1#h1Form{
-    text-align:right;
+    padding-left:7%;
     color:#3d0d67;
 }
 
