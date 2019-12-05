@@ -120,7 +120,7 @@ form{
 }
 
 form div{
-    margin: 5%;
+    margin: 3%;
     background-color:red;
     flex:2;
 }
@@ -135,6 +135,7 @@ form div input{
     font-size: 1.2em;
     color: #280944;
     padding:2%;
+    border: none;
 }
 
 #btnRegister{
@@ -143,6 +144,7 @@ form div input{
     font-size: 1.5em;
     border:none;
     flex:1;
+    margin: 3%;
 }
 
 #btnRegister:hover{
