@@ -116,7 +116,11 @@ form{
     color: white;
     padding: 3% 0;
     display:flex;
-    text-align:center;
+
+}
+
+form div{
+    margin: 5%;
 }
 
 form div label{
