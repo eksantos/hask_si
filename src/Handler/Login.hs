@@ -16,7 +16,7 @@ import Database.Persist.Postgresql
 formLogin :: Form (Text, Text)
 formLogin = renderBootstrap $ (,)
     <$> areq emailField "E-mail: " Nothing
-    <*> areq passwordField "Senha: " Nothing
+    <*> areq passwordField "Password: " Nothing
     
 getEntrarR :: Handler Html
 getEntrarR = do 
@@ -30,7 +30,7 @@ getEntrarR = do
                         ^{mensa}
                 
                 <h1>
-                    ENTRAR
+                    SIGN IN
                 
                 <form method=post action=@{EntrarR}>
                     ^{widget}
@@ -54,7 +54,7 @@ postEntrarR = do
                 Nothing -> do 
                     setMessage [shamlet|
                         <div>
-                            E-mail NAO ENCONTRADO!
+                            E-mail NOT FOUND !
                     |]
                     redirect EntrarR
                 Just (Entity _ usu) -> do 
@@ -64,7 +64,7 @@ postEntrarR = do
                     else do 
                         setMessage [shamlet|
                             <div>
-                                Senha INCORRETA!
+                                INCORRECT PASSWORD!
                         |]
                         redirect EntrarR 
         _ -> redirect HomeR
@@ -78,5 +78,5 @@ getAdminR :: Handler Html
 getAdminR = do
     defaultLayout [whamlet|
         <h1>
-            BEM-VINDO
+            WELCOME
     |]
