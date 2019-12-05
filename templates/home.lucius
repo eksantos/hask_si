@@ -158,8 +158,12 @@ form div input{
 
 #btnRegister:hover{
     background-color: #61f2f5;
-    
-    
+}
+
+#cadSucesso{
+    text-align:center;
+    font-size:1.1;
+    color:#00ff00;
 }
 
 /*FOOTER*/

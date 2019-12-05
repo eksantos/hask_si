@@ -68,7 +68,7 @@ postNoticiasR = do
             runDB $ insert $ noticia
             setMessage [shamlet|
                         <h1 class="cadSucesso">
-                            Register Success 
+                            Register Success!!! 
                        |]
             redirect HomeR
         _ -> redirect HomeR
