@@ -37,6 +37,7 @@ getEntrarR = do
                     <input type="submit" value="Entrar">
             |]
         $(whamletFile "templates/footer.hamlet")
+        toWidgetHead $(luciusFile "templates/home.lucius")
     
     
 postEntrarR :: Handler Html
