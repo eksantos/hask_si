@@ -116,7 +116,7 @@ form{
     color: white;
     padding: 3% 0;
     display:flex;
-
+     align-items: flex-start;
 }
 
 form div{
@@ -127,7 +127,7 @@ form div{
 form div label{
     font-family: 'Luckiest Guy', cursive;
     font-size: 2em;
-    flex:3;
+    flex:1;
 }
 
 form div input{
@@ -141,10 +141,13 @@ form div input{
     background-color: #280944;
     font-size: 1.5em;
     border:none;
+    flex:2;
 }
 
 #btnRegister:hover{
     background-color: #61f2f5;
+    height:2%;
+    
 }
 
 /*FOOTER*/
