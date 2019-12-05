@@ -121,7 +121,6 @@ form{
 
 form div{
     margin: 3%;
-    background-color:red;
     flex:2;
 }
 
@@ -145,8 +144,9 @@ form div input{
     border:none;
     flex:1;
     margin: 3% 3% 3% 0;
-    padding: 3px;
+    padding: 10px 0;
     text-transform: uppercase;
+    transform: skew(-20deg);
 }
 
 #btnRegister:hover{
