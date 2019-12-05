@@ -137,8 +137,14 @@ form div input{
 }
 
 #btnRegister{
+    display:block;
     background-color: #280944;
     font-size: 1.5em;
+    border:none;
+}
+
+#btnRegister:hover{
+    background-color: #61f2f5;
 }
 
 /*FOOTER*/
