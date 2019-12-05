@@ -145,7 +145,8 @@ form div input{
     border:none;
     flex:1;
     margin: 3% 3% 3% 0;
-    
+    padding: 3px;
+    text-transform: uppercase;
 }
 
 #btnRegister:hover{
