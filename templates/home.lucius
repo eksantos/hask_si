@@ -116,7 +116,7 @@ form{
     color: white;
     padding: 3% 0;
     display:flex;
-     align-items: flex-start;
+    align-items: center;
 }
 
 form div{
@@ -141,7 +141,7 @@ form div input{
     background-color: #280944;
     font-size: 1.5em;
     border:none;
-    flex:2;
+    flex:1;
 }
 
 #btnRegister:hover{
