@@ -7,7 +7,7 @@
                 E-MAIL
             <th>
     <tbody>
-        $forall Entity aid noticia <- noticias
+        $forall Entity aid noticias <- noticias
             <tr>
                 <td>
                     #{noticiasNome noticias}
