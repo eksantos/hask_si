@@ -160,10 +160,10 @@ form div input{
     background-color: #61f2f5;
 }
 
-#cadSucesso{
-    text-align:center;
+.cadSucesso{
+    color:green;
     font-size:1em;
-    color: green;
+    text-align:center;
 }
 
 h1#h1Form{
