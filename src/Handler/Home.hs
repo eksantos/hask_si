@@ -48,7 +48,7 @@ getHomeR = do
         |]
         $(whamletFile "templates/main.hamlet")
         [whamlet|
-            <h1>News
+            <h1>always be the first to receive our news, sign up, it's free!
             <form method=post action=@{NoticiasR}>
                 ^{widget}
                 <input type="submit" value="REGISTER" id="btnRegister">
