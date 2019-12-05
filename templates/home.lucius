@@ -10,7 +10,7 @@
 
 a#linkH1{
    text-decoration:none;
-   color:#5c149b;
+   color: #5c149b !importan;
 }
 
 main{
