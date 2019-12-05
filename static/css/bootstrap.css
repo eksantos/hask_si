@@ -207,9 +207,6 @@ th {
     text-shadow: none !important;
   }
   a,
-  a:visited {
-    text-decoration: underline;
-  }
   a[href]:after {
     content: " (" attr(href) ")";
   }
@@ -1104,10 +1101,11 @@ a {
   color: #18bc9c;
   text-decoration: none;
 }
-a:hover,
+a:hover {
+  color: black;
+}
 a:focus {
   color: #18bc9c;
-  text-decoration: underline;
 }
 a:focus {
   outline: 5px auto -webkit-focus-ring-color;
